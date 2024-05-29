@@ -10,5 +10,6 @@ export default {
 </script>
 
 <template>
-  <p>{{ text }}</p>
+  <p>{{ text }}{{ text }}{{ text }}{{ text }}{{ text }}{{ text }}</p>
 </template>
+<style scoped></style>

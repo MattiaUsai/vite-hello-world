@@ -19,8 +19,11 @@ export default {
   </main>
 </template>
 
-<style scoped>
+<style>
 main {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
   margin-top: 100px;
 }
 </style>

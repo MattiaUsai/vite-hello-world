@@ -12,3 +12,9 @@ export default {
 <template>
   <h1>{{ title }}</h1>
 </template>
+<style scoped>
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+</style>
