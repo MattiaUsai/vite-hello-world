@@ -1,9 +1,17 @@
-<script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+<script>
+import Paragrafo from "./components/Paragraf.vue";
+import Titolo from "./components/Apptitle.vue";
+export default {
+  components: {
+    Paragrafo,
+    Titolo,
+  },
+};
 </script>
 
 <template>
-  <h1>Questo e il titolo che ho inserito io</h1>
+  <Titolo></Titolo>
+  <Paragrafo></Paragrafo>
 </template>
 
 <style></style>
